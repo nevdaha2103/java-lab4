@@ -97,10 +97,10 @@ public class Word {
     
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (Letter letter : letters) {
-            sb.append(letter.toString());
-        }
-        return sb.toString();
+    StringBuilder sb = new StringBuilder(); 
+    for (Letter letter : letters) {
+        sb.append(letter.toString());
     }
+    return sb.toString();
+}
 }

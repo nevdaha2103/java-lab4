@@ -101,13 +101,14 @@ public class Text {
     
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < sentences.size(); i++) {
-            sb.append(sentences.get(i).toString());
-            if (i < sentences.size() - 1) {
-                sb.append(" ");
-            }
+    StringBuilder sb = new StringBuilder(); 
+    for (int i = 0; i < sentences.size(); i++) {
+        sb.append(sentences.get(i).toString());
+        if (i < sentences.size() - 1) {
+            sb.append(" ");
         }
-        return sb.toString();
     }
+    return sb.toString();
+}
+
 }

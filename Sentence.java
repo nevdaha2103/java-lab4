@@ -111,7 +111,7 @@ public class Sentence {
     
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();  // Використовуємо StringBuilder
         for (int i = 0; i < elements.size(); i++) {
             Object element = elements.get(i);
             sb.append(element.toString());
